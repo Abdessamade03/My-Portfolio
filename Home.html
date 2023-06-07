@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a49248d645.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="doc/logom.png" class="logo">
+                <ul id="sidemenu">
+                    <li ><a href="#header">Home</a></li>
+                    <li ><a href="#about">About</a></li>
+                    <li ><a href="#education">Education</a></li>
+                    <li ><a href="#skills">Skills</a></li>
+                    <li ><a href="#projects">Projects</a></li>
+                    <li ><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm <span>A</span>bdessamade <span>A</span>barchihi</h1>
+                <p>Engineering student</p>
+
+            </div>
+
+        </div>
+    </div>
+ <!--------------About-------------------->
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about1">
+                <img src="doc/nki2.jpg" class="nkii">
+                </div>
+                <div class="about2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="description">     I am Abdessamade Abarchihi from Ouarzazate, a passionate and dedicated engineering student 
+                        currently pursuing my studies in cloud and IoT at 
+                        INPT (National Institute of Posts and Telecommunications)
+                         in Rabat. With a strong interest in technology and its applications,
+                          I am committed to expanding my knowledge and skills in the field of IT to contribute 
+                          to the digital transformation of businesses and society.</p>
+                </div>
+            </div>
+        </div>
+   </div>
+   <!--------------Education-------------------->
+   <div id="education">
+        <div class="container">
+            <h1 class="subtitle1">Education</h1>
+            <div class="listeducation">
+                <div>
+                    <h2>2020-2022</h2>
+                    <p class="e">Preparatory Classes, TSI<br>Lycee Technique Settat<br>Ranked 23th in CNC</p>
+                    <a href="#">learn more</a> 
+                </div>
+                <div>
+                    <h2>2022-2025</h2>
+                    <p class="e">Engineering Degree, Cloud & IoT<br>Institut National des Postes et Télécommunications INPT, Rabat</p>
+                    <a href="#">learn more</a> 
+                </div>
+            </div>
+        </div>
+   </div>
+      <!--------------Skills-------------------->
+   <div id="skills">
+        <div class="container">
+            <h1 class="subtitle1">My Skills</h1>
+            <div class="listskills">
+                <div>
+                    <h2>Technical skills</h2>
+                        <img src="doc/java.png">
+                        <img src="doc/python.png">
+                        <img src="doc/sql.png">
+                        <img src="doc/html.png">
+                        <img src="doc/css.png">
+                        <img src="doc/android.png">
+                        <img src="doc/firebase.png">
+                </div>
+                
+                <div>
+                    <h2>Tools</h2>
+                        <img src="doc/AS.png">
+                        <img src="doc/AST.png">
+                        <img src="doc/GITHUB.png">
+                </div>
+            </div>
+            <div class="listskills">
+                <div>
+                    <h2>Others</h2>
+                        <img src="doc/PHOTOSHOP.png" class="o">
+                        <img src="doc/ILLUATRATOR.png" class="o">
+                        
+                </div>
+                
+            </div>
+
+
+        </div>
+   </div>
+     <!--------------Projects-------------------->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="subtitle1">My Projects</h1>
+        <div class="projectslist">
+            <div class="project">
+                <img src="doc/logo SM.png">
+                <div class="layer">
+                    <h2>Smart Sitter</h2>
+                    <a href="https://github.com/Abdessamade03/Smart-Sitter"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="doc/logo.png">
+                <div class="layer">
+                    <h2>My Portfolio</h2>
+                    <a href="https://github.com/Abdessamade03/My-Portfolio"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--------------Contact-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="subtitle1">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>abdessamade.abarchihi@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0624250973</p>
+                <div class="iconss" >
+                    <a href="https://www.facebook.com/abdessamad.abarchihi/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/abdessamade_abe/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/abdessamade-abarchihi-366789247/"><i class="fa-brands fa-linkedin"></i></a>
+                    
+
+                </div>        
+            <a href="doc/Abdessamade.pdf" download class="btnD">Download CV</a>
+            </div>
+            <div class="contactright">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btnD btn2">Submit</button>
+                </form>
+                <span id="msg">
+    
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+
+<script>
+    
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxTmyYzDXaehIF2kOBsZg7FNwVxXkF8yjq_ojhSDlMF7s6GEW75cBjlzuMZzI2GkJvUIA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html> 
